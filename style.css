@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 1169px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#espantalho {
+    width: 700px;
+    padding-right: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+h3 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+p{
+    font-size: 25px;
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+button{
+    background-color: rgb(43, 42, 42);
+    width: 226px;
+    height: 51px;
+    border: 0;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.criador{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 170px;
+    margin-left: 140px;
+}
+
+.ignorar{
+    font-size: 20px;
+    color: rgba(83, 82, 82, 0.377);
+}
+
+.Eu{
+    font-size: 20px;
+    color: rgba(83, 82, 82, 0.377); 
+}
