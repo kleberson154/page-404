@@ -8,8 +8,7 @@
 .container{
     display: flex;
     width: 1169px;
-    margin-left: 250px;
-    margin-top: 50px;
+    margin: 0 auto;
 }
 
 #espantalho {
@@ -20,7 +19,6 @@
 .text{
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
     justify-content: center;
 }
 
@@ -111,13 +109,15 @@ a{
     }
     h1{
         font-size: 30px;
-        margin-bottom: 40px;
+        margin: 40px 0 30px;
         width: 80%;
+        text-align: center;
     }
 
     .descrição{
         width: 80%;
         font-size: 20px;
+        text-align: center;
     }
 
     .criador{
